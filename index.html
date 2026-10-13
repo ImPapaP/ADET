@@ -9,14 +9,14 @@
       content="A personal portfolio introducing a developing web creator and their projects."
     />
     <meta name="theme-color" content="#f7f6f2" />
-    <title>Your Name — Web Developer</title>
+    <title>Prince Jhon C. Reyes — Web Developer</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <!-- The header combines the personal brand, section navigation, and controls. -->
     <header class="site-header">
-      <a class="wordmark" href="#home" aria-label="Your Name, home">YN<span>.</span></a>
+      <a class="wordmark" href="#home" aria-label="Prince Jhon C. Reyes, home">PJR<span>.</span></a>
       <button
         class="menu-toggle"
         type="button"
@@ -30,6 +30,8 @@
       <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
         <button class="theme-toggle" type="button" aria-pressed="false">
           <span class="theme-icon" aria-hidden="true">◐</span>
@@ -39,13 +41,13 @@
     </header>
 
     <main>
-      <!-- The hero introduces the portfolio owner and provides a portrait placeholder. -->
+      <!-- The hero introduces the portfolio owner and provides a personal portrait. -->
       <section class="hero section-shell" id="home" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow"><span class="status-dot"></span> Available for opportunities</p>
           <h1 id="hero-title">Thoughtful code.<br /><span>Meaningful</span> experiences.</h1>
           <p class="hero-intro">
-            Hi, I’m <strong>Your Name</strong> — an aspiring web developer who enjoys
+            Hi, I’m <strong>Prince Jhon C. Reyes</strong> — an aspiring web developer who enjoys
             turning good ideas into clear, useful experiences on the web.
           </p>
           <div class="hero-actions">
@@ -60,8 +62,8 @@
         </div>
         <figure class="portrait-card">
           <img
-            src="assets/portrait-placeholder.svg"
-            alt="Illustrated portrait placeholder; replace this image with your own photo."
+            src="assets/portrait.jpg"
+            alt="Portrait of Prince Jhon C. Reyes."
             width="520"
             height="600"
           />
@@ -71,7 +73,7 @@
         <a class="scroll-cue" href="#about"><span aria-hidden="true">↓</span> Scroll to explore</a>
       </section>
 
-      <!-- About content gives the portfolio a personal introduction and skills snapshot. -->
+      <!-- About content gives the portfolio a personal introduction. -->
       <section class="about section-shell section-padding" id="about" aria-labelledby="about-title">
         <div class="section-heading">
           <p class="eyebrow">A bit about me <span>— 01</span></p>
@@ -90,20 +92,17 @@
             When I’m not at my editor, I’m usually collecting inspiration, learning
             something new, or finding a better way to simplify an idea.
           </p>
-          <div class="skill-list" aria-label="Current skills">
-            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>UI design</span>
-          </div>
         </div>
       </section>
 
-      <!-- Each project card is a sample project and can be replaced with real work. -->
+      <!-- These clearly labeled concept projects are examples to customize. -->
       <section class="projects section-shell section-padding" id="projects" aria-labelledby="projects-title">
         <div class="projects-heading">
           <div class="section-heading">
             <p class="eyebrow">Selected work <span>— 02</span></p>
             <h2 id="projects-title">Small projects.<br />Big learning.</h2>
           </div>
-          <p class="section-note">A couple of concept projects from my learning journey.</p>
+          <p class="section-note">Sample concepts for this portfolio—not client work. Replace them with your own projects.</p>
         </div>
         <div class="project-grid">
           <article class="project-card project-card-sage">
@@ -124,7 +123,7 @@
               <span class="visual-index">CONCEPT 01</span>
             </div>
             <div class="project-info">
-              <div><p class="project-type">Responsive web app · 2025</p><h3>Campus Connect</h3></div>
+              <div><p class="project-type">Sample concept · Responsive web app</p><h3>Campus Connect</h3></div>
               <a class="project-link" href="#contact" aria-label="Ask me about Campus Connect">↗</a>
               <p class="project-description">
                 A friendly event board that helps students discover what’s happening
@@ -146,7 +145,7 @@
               <span class="visual-index">CONCEPT 02</span>
             </div>
             <div class="project-info">
-              <div><p class="project-type">Wellness tracker · 2025</p><h3>Fresh Start</h3></div>
+              <div><p class="project-type">Sample concept · Wellness tracker</p><h3>Fresh Start</h3></div>
               <a class="project-link" href="#contact" aria-label="Ask me about Fresh Start">↗</a>
               <p class="project-description">
                 A calm habit tracker concept that celebrates small wins and makes
@@ -155,15 +154,121 @@
               <div class="project-tags"><span>Semantic HTML</span><span>Flexbox</span><span>DOM events</span></div>
             </div>
           </article>
+
+          <article class="project-card project-card-lilac">
+            <div class="project-visual budget-visual" aria-hidden="true">
+              <div class="mini-window">
+                <div class="mini-window-top"><span></span><span></span><span></span><b>pocket / planner</b></div>
+                <div class="budget-preview">
+                  <span>MONTHLY OVERVIEW</span>
+                  <strong>Your money,<br />made clearer.</strong>
+                  <div class="budget-total"><span>AVAILABLE TO SAVE</span><b>$420.00</b></div>
+                  <div class="budget-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                  <span class="budget-caption">Sample spending dashboard</span>
+                </div>
+              </div>
+              <span class="visual-index">CONCEPT 03</span>
+            </div>
+            <div class="project-info">
+              <div><p class="project-type">Sample concept · Personal finance</p><h3>Pocket Planner</h3></div>
+              <a class="project-link" href="#contact" aria-label="Ask me about Pocket Planner">↗</a>
+              <p class="project-description">
+                A simple budgeting dashboard concept for organizing monthly expenses,
+                tracking spending, and building healthy saving habits.
+              </p>
+              <div class="project-tags"><span>JavaScript</span><span>CSS Grid</span><span>Data visualization</span></div>
+            </div>
+          </article>
+
+          <article class="project-card project-card-sage">
+            <div class="project-visual storefront-visual" aria-hidden="true">
+              <div class="storefront-preview">
+                <div class="storefront-top"><span>STUDIO GOODS</span><span>MENU&nbsp;&nbsp; BAG (0)</span></div>
+                <div class="storefront-art">
+                  <span>OBJECTS FOR<br />SLOWER DAYS</span>
+                  <div class="storefront-vase" aria-hidden="true"></div>
+                  <span>HANDMADE · SMALL BATCH</span>
+                </div>
+                <div class="storefront-bottom"><strong>Made to keep.</strong><span>DISCOVER THE COLLECTION ↗</span></div>
+              </div>
+              <span class="visual-index">CONCEPT 04</span>
+            </div>
+            <div class="project-info">
+              <div><p class="project-type">Sample concept · Online storefront</p><h3>Studio Goods</h3></div>
+              <a class="project-link" href="#contact" aria-label="Ask me about Studio Goods">↗</a>
+              <p class="project-description">
+                An editorial storefront concept for a small-batch ceramics studio,
+                designed to make browsing a collection feel calm and approachable.
+              </p>
+              <div class="project-tags"><span>Responsive design</span><span>Accessibility</span><span>UI design</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="learning section-shell section-padding" aria-label="Skills and certifications examples">
+        <div class="learning-grid">
+          <div class="skills-panel" id="skills" aria-labelledby="skills-title">
+            <div class="section-heading">
+              <p class="eyebrow">What I’m learning <span>— 03</span></p>
+              <h2 id="skills-title">Skills to build<br />with confidence.</h2>
+            </div>
+            <p class="learning-note">Example skills only—keep the ones that match your real experience.</p>
+            <div class="skill-groups">
+              <div class="skill-group">
+                <h3>Frontend</h3>
+                <div class="skill-list" aria-label="Example frontend skills">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive design</span>
+                </div>
+              </div>
+              <div class="skill-group">
+                <h3>Design &amp; accessibility</h3>
+                <div class="skill-list" aria-label="Example design and accessibility skills">
+                  <span>UI design</span><span>Figma</span><span>Web accessibility</span><span>Wireframing</span>
+                </div>
+              </div>
+              <div class="skill-group">
+                <h3>Tools &amp; workflow</h3>
+                <div class="skill-list" aria-label="Example tools and workflow skills">
+                  <span>Git</span><span>GitHub</span><span>Chrome DevTools</span><span>VS Code</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="certifications-panel" id="certifications" aria-labelledby="certifications-title">
+            <div class="section-heading">
+              <p class="eyebrow">Learning milestones <span>— 04</span></p>
+              <h2 id="certifications-title">Certifications<br />&amp; learning.</h2>
+            </div>
+            <p class="learning-note">Illustrative examples only. These are not claimed credentials—replace them with certifications you’ve earned.</p>
+            <div class="certification-list">
+              <article class="certification-card">
+                <span class="certification-icon" aria-hidden="true">01</span>
+                <div><h3>Responsive Web Design</h3><p>Example certification · Example provider</p></div>
+                <span class="certification-status">EXAMPLE</span>
+              </article>
+              <article class="certification-card">
+                <span class="certification-icon" aria-hidden="true">02</span>
+                <div><h3>JavaScript Fundamentals</h3><p>Example certification · Example provider</p></div>
+                <span class="certification-status">EXAMPLE</span>
+              </article>
+              <article class="certification-card">
+                <span class="certification-icon" aria-hidden="true">03</span>
+                <div><h3>Web Accessibility Basics</h3><p>Example certification · Example provider</p></div>
+                <span class="certification-status">EXAMPLE</span>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
 
       <!-- The contact callout provides direct email and social links. -->
       <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
         <div class="contact-inner">
-          <p class="eyebrow">Have a project in mind? <span>— 03</span></p>
+          <p class="eyebrow">Have a project in mind? <span>— 05</span></p>
           <h2 id="contact-title">Let’s make something<br /><span>worth sharing.</span></h2>
-          <a class="contact-email" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+          <a class="contact-email" href="mailto:reyesactivity4@gmail.com">reyesactivity4@gmail.com <span aria-hidden="true">↗</span></a>
           <div class="contact-bottom">
             <p>Open to learning, collaboration, and new ideas.</p>
             <div class="social-links">
@@ -177,7 +282,7 @@
 
     <!-- The footer closes the page with ownership and a return-to-top link. -->
     <footer class="site-footer section-shell">
-      <span>© <span id="current-year">2026</span> Your Name</span>
+      <span>© <span id="current-year">2026</span> Prince Jhon C. Reyes</span>
       <span>Designed with curiosity <span class="footer-spark" aria-hidden="true">✳</span></span>
       <a href="#home">Back to top ↑</a>
     </footer>
