@@ -1,0 +1,27 @@
+<!-- Replace this editable illustration with a personal photo when customizing the portfolio. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" fill="none">
+  <defs>
+    <linearGradient id="background" x1="46" y1="35" x2="478" y2="585" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6EADF"/>
+      <stop offset="1" stop-color="#CAD7BD"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="143" y1="392" x2="396" y2="599" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#45584D"/>
+      <stop offset="1" stop-color="#263A32"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#background)" d="M0 0h520v600H0z"/>
+  <circle cx="432" cy="111" r="51" fill="#D3E69B" opacity=".78"/>
+  <path d="M78 481c24-97 95-148 182-148s159 51 182 148v119H78V481Z" fill="url(#shirt)"/>
+  <path d="M200 344h120v90c-16 21-37 32-60 32s-44-11-60-32v-90Z" fill="#C77F62"/>
+  <path d="M177 191c0-77 35-121 84-121 51 0 86 44 86 121v66c0 68-39 113-86 113-46 0-84-45-84-113v-66Z" fill="#D99675"/>
+  <path d="M166 229c-21-91 13-172 99-172 73 0 112 47 109 139-16-4-29-14-38-31-27 22-70 35-133 33v56h-23l-14-25Z" fill="#283931"/>
+  <path d="M199 255c11-9 25-9 36-1M286 254c11-9 25-9 36-1" stroke="#49372E" stroke-linecap="round" stroke-width="5"/>
+  <circle cx="218" cy="273" r="4" fill="#2A302C"/>
+  <circle cx="304" cy="273" r="4" fill="#2A302C"/>
+  <path d="M242 318c12 8 25 8 37 0" stroke="#8E4F43" stroke-linecap="round" stroke-width="4"/>
+  <path d="m170 402 90 67 90-67 62 34c28 16 46 45 52 83l8 81H48l8-81c5-38 24-67 52-83l62-34Z" fill="url(#shirt)"/>
+  <path d="m219 439 41 30 42-30-18 63h-47l-18-63Z" fill="#F0EBDD"/>
+  <path d="m251 502 9-33 9 33-9 19-9-19Z" fill="#B3C86F"/>
+  <path d="M89 540h342" stroke="#6E8475" stroke-linecap="round" stroke-width="2" opacity=".7"/>
+</svg>
